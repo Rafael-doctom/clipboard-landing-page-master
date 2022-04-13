@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: 1370px;
+    background-repeat: no-repeat;
+}
+
+.container-header{
+    width: 720px;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+}
+
+.itens-header{
+    padding: 19vh 0;
+    text-align: center;
+}
+
+.itens-header img{
+    height: 16vh;
+}
+
+.itens-header h1{
+    font-size: 2.25em;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+    /* border: 1px solid tomato; */
+    width: 680px;
+    margin-top: 5vh !important;
+    margin: 0 auto;
+}
+
+.itens-header p{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 560px;
+    text-align: start;
+    color: hsl(201, 11%, 66%);
+    /* border: 1px solid tomato; */
+    margin: 2vh auto;
+}
+
+.itens-header p{
+    text-align: center;
+}
+
+.itens-header button{
+    margin: 5vh 1vh;
+    padding: 0.8rem;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 28vh;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.ios{
+    color: white;
+    background: hsl(171, 66%, 44%);
+    border: none;
+    border: 1px solid hsl(171, 66%, 44%);;
+
+}
+
+.mac{
+    color: white;
+    background:hsl(233, 100%, 69%);
+    border: none;
+    border: 1px solid hsl(233, 100%, 69%);
+}
