@@ -12,7 +12,6 @@ header{
 .container-header{
     width: 720px;
     margin: 0 auto;
-    /* border: 1px solid tomato; */
 }
 
 .itens-header{
@@ -72,4 +71,40 @@ header{
     background:hsl(233, 100%, 69%);
     border: none;
     border: 1px solid hsl(233, 100%, 69%);
+}
+
+@media(max-width: 600px){
+    header{
+        background-image: url(images/bg-header-desktop.png);
+        background-size: 600px 150px;
+        background-repeat: no-repeat;
+    }
+
+    .container-header{
+        width: 320px;
+    }
+    
+    .itens-header{
+        text-align: center;
+    }
+
+    
+    .itens-header h1{
+        font-size: 1.25em;
+        width: 200px;
+        font-weight: bold;
+    }
+    
+    .itens-header p{
+        font-size: 0.90em;
+        width: 310px;
+        text-align: center;
+        margin: 2vh auto;
+    }
+
+    .itens-header button{
+        margin: 1vh 1vh;
+        width: 35vh;
+    }
+    
 }
